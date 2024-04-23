@@ -20,6 +20,7 @@ body {
     sans-serif;
     background-color: aliceblue;
     color: black;
+  min-height: 100dvh;
 }
 
 .title {
