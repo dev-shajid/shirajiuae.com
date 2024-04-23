@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { AiOutlineMenuFold } from 'react-icons/ai'
-import { NavLink, useLocation } from 'react-router-dom'
+import { Link, NavLink, useLocation } from 'react-router-dom'
 
 export default function Nav() {
     const menu_icon_ref = useRef()
@@ -39,10 +39,10 @@ export default function Nav() {
 
     return (
         <header className="">
-            <div className="container flex justify-between !my-0 !py-2">
-                <a href="index.html" className="text-4xl font-semibold">
-                    <img className="w-[120px]" src="./images/logo.png" alt="" />
-                </a>
+            <div className="container !my-0 flex justify-between">
+                <Link to="/" className="">
+                    <img className="w-[100px]" src="./images/logo.png" alt="" />
+                </Link>
                 <nav ref={nav} id="sidebar" className="flex items-center gap-4">
                     <div ref={cross_icon_ref} onClick={close_menu} id="cross_icon" className="md:hidde absolute top-[40px] right-[30px] cursor-pointer text-2xl">
                         ✕

@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <div className='container'>
-      <div className="title mb-12">About Us</div>
+      <div className="title md:mb-12">About Us</div>
       <div className='space-y-2'>
         <p>Welcome to Shiraji Group, where excellence meets integrity in contracting works. Established in 2011, we have emerged as leaders in the industry, dedicated to creating a better environment for our nation through our construction and engineering expertise.</p>
         <p>At Shiraji Group, our core values revolve around integrity, quality, and client satisfaction. With a team of professionals passionate about their craft, we offer integrated solutions spanning General Contracting, MEP, and Civil works. Our commitment to excellence is evident in every project we undertake.</p>
