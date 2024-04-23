@@ -34,7 +34,7 @@ export default function Contact() {
             <div className='space-y-2'>
               <div className='font-semibold text-xl'>Phone</div>
               <div className='flex flex-col'>
-                <a href="tel:+97124488449">+97124488449</a>
+                <p>+97124488449 (Ext.No.1104)</p>
                 <a href="tel:+971559425653">+971559425653</a>
               </div>
             </div>

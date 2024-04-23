@@ -51,6 +51,7 @@ export default function Nav() {
                     <MenuItem name="About" to='/about' />
                     <MenuItem name="Service" to='/service' />
                     <MenuItem name="Project" to='/project' />
+                    <MenuItem name="Gallery" to='/gallery' />
                     <MenuItem name="Contact" to='/contact' />
                 </nav>
                 <div

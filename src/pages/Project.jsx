@@ -6,7 +6,7 @@ export default function Project() {
 
 
       <div>
-        <div className="text-3xl text-center font-semibold">Ongoing Projects</div>
+        <div className="title2 text-center font-semibold">Ongoing Projects</div>
         <div class="relative overflow-x-auto max-w-[1200px] w-full p-4 mx-auto">
           <table class="w-full text-sm text-left rtl:text-right text-gray-700 dark:text-gray-400 shadow-md sm:rounded-lg">
             <thead class="text-sm text-gray-700 uppercase bg-gray-200">
@@ -57,7 +57,7 @@ export default function Project() {
 
 
       <div>
-        <div className="text-3xl text-center font-semibold">Completed Projects</div>
+        <div className="title2 text-center font-semibold">Completed Projects</div>
         <div class="relative overflow-x-auto max-w-[1200px] w-full p-4 mx-auto">
           <table class="w-full text-sm text-left rtl:text-right text-gray-700 dark:text-gray-400 shadow-md sm:rounded-lg">
             <thead class="text-sm text-gray-700 uppercase bg-gray-200">
